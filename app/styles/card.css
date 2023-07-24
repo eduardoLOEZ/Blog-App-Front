@@ -1,0 +1,129 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  .blog-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .blog-summary {
+    font-size: 18px;
+    color: #888;
+  }
+
+  .blog-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .back-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+
+  .blog-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .blog-card:hover,
+    .blog-card:active {
+    outline: 2px solid blue;
+  /* Otros estilos de resaltado */
+}
+
+/* card.css (en la carpeta /app/styles) */
+.crear-blog-button {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .crear-blog-button:hover {
+    background-color: darkgreen;
+  }
+
+/* CrearBlog.css (guarda este archivo en la misma carpeta que el componente) */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input,
+  .textarea,
+  .file-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    resize: vertical;
+    height: 200px; /* Ajusta el alto según desees */
+  }
+  
+  .file-input {
+    border: none;
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
